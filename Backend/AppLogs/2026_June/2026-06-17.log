@@ -1,0 +1,114 @@
+2026-06-17 09:31:24.251 INFO  [c.a.agritrade.AgritradeApplication] - Starting AgritradeApplication using Java 21.0.1 with PID 31904 (D:\Full-stack-project\Agritrade-app\Backend\target\classes started by ajeet in D:\Full-stack-project\Agritrade-app\Backend)
+2026-06-17 09:31:24.253 DEBUG [c.a.agritrade.AgritradeApplication] - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-06-17 09:31:24.254 INFO  [c.a.agritrade.AgritradeApplication] - No active profile set, falling back to 1 default profile: "default"
+2026-06-17 09:31:24.327 INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-17 09:31:24.327 INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-17 09:31:25.270 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-17 09:31:25.323 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 34 ms. Found 0 JPA repository interfaces.
+2026-06-17 09:31:26.128 INFO  [o.s.boot.tomcat.TomcatWebServer] - Tomcat initialized with port 9901 (http)
+2026-06-17 09:31:26.152 INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2026-06-17 09:31:26.153 INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-17 09:31:26.217 INFO  [o.s.b.w.c.s.WebApplicationContextInitializer] - Root WebApplicationContext: initialization completed in 1889 ms
+2026-06-17 09:31:26.524 INFO  [org.hibernate.orm.jpa] - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-17 09:31:26.612 INFO  [org.hibernate.orm.core] - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-06-17 09:31:27.346 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-17 09:31:27.423 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2026-06-17 09:31:27.668 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e8bf8cc
+2026-06-17 09:31:27.671 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2026-06-17 09:31:27.774 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/agritradeDb?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.36
+	Default catalog/schema: agritradeDb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-17 09:31:28.954 INFO  [org.hibernate.orm.core] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-17 09:31:29.113 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17 09:31:29.238 WARN  [o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-17 09:31:29.810 INFO  [o.s.boot.tomcat.TomcatWebServer] - Tomcat started on port 9901 (http) with context path '/'
+2026-06-17 09:31:29.821 INFO  [c.a.agritrade.AgritradeApplication] - Started AgritradeApplication in 6.283 seconds (process running for 7.162)
+2026-06-17 09:32:08.077 INFO  [o.s.boot.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-17 09:32:08.088 INFO  [o.s.boot.tomcat.GracefulShutdown] - Graceful shutdown complete
+2026-06-17 09:32:08.092 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17 09:32:08.097 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2026-06-17 09:32:08.127 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2026-06-17 09:34:18.304 INFO  [c.a.agritrade.AgritradeApplication] - Starting AgritradeApplication using Java 21.0.1 with PID 3272 (D:\Full-stack-project\Agritrade-app\Backend\target\classes started by ajeet in D:\Full-stack-project\Agritrade-app\Backend)
+2026-06-17 09:34:18.309 DEBUG [c.a.agritrade.AgritradeApplication] - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-06-17 09:34:18.309 INFO  [c.a.agritrade.AgritradeApplication] - No active profile set, falling back to 1 default profile: "default"
+2026-06-17 09:34:18.392 INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-17 09:34:18.393 INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-17 09:34:19.322 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-17 09:34:19.355 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2026-06-17 09:34:20.112 INFO  [o.s.boot.tomcat.TomcatWebServer] - Tomcat initialized with port 9901 (http)
+2026-06-17 09:34:20.142 INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2026-06-17 09:34:20.142 INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-17 09:34:20.201 INFO  [o.s.b.w.c.s.WebApplicationContextInitializer] - Root WebApplicationContext: initialization completed in 1806 ms
+2026-06-17 09:34:20.507 INFO  [org.hibernate.orm.jpa] - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-17 09:34:20.585 INFO  [org.hibernate.orm.core] - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-06-17 09:34:21.168 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-17 09:34:21.256 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2026-06-17 09:34:21.501 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f5a0abf
+2026-06-17 09:34:21.505 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2026-06-17 09:34:21.685 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/agritradeDb?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.36
+	Default catalog/schema: agritradeDb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-17 09:34:23.250 INFO  [org.hibernate.orm.core] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-17 09:34:23.343 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17 09:34:23.440 WARN  [o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-17 09:34:23.949 INFO  [o.s.boot.tomcat.TomcatWebServer] - Tomcat started on port 9901 (http) with context path '/'
+2026-06-17 09:34:23.959 INFO  [c.a.agritrade.AgritradeApplication] - Started AgritradeApplication in 6.317 seconds (process running for 7.126)
+2026-06-17 09:37:10.645 INFO  [o.s.boot.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-17 09:37:10.649 INFO  [o.s.boot.tomcat.GracefulShutdown] - Graceful shutdown complete
+2026-06-17 09:37:10.661 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17 09:37:10.665 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2026-06-17 09:37:10.673 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2026-06-17 09:37:17.769 INFO  [c.a.agritrade.AgritradeApplication] - Starting AgritradeApplication using Java 21.0.1 with PID 26368 (D:\Full-stack-project\Agritrade-app\Backend\target\classes started by ajeet in D:\Full-stack-project\Agritrade-app\Backend)
+2026-06-17 09:37:17.774 DEBUG [c.a.agritrade.AgritradeApplication] - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-06-17 09:37:17.775 INFO  [c.a.agritrade.AgritradeApplication] - No active profile set, falling back to 1 default profile: "default"
+2026-06-17 09:37:17.848 INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-17 09:37:17.848 INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-17 09:37:18.856 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-17 09:37:18.885 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2026-06-17 09:37:19.610 INFO  [o.s.boot.tomcat.TomcatWebServer] - Tomcat initialized with port 9901 (http)
+2026-06-17 09:37:19.639 INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2026-06-17 09:37:19.643 INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-17 09:37:19.691 INFO  [o.s.b.w.c.s.WebApplicationContextInitializer] - Root WebApplicationContext: initialization completed in 1843 ms
+2026-06-17 09:37:20.005 INFO  [org.hibernate.orm.jpa] - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-17 09:37:20.066 INFO  [org.hibernate.orm.core] - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-06-17 09:37:20.639 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-17 09:37:20.723 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2026-06-17 09:37:20.937 INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a89bc89
+2026-06-17 09:37:20.943 INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2026-06-17 09:37:21.109 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/agritradeDb?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.36
+	Default catalog/schema: agritradeDb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-17 09:37:22.077 INFO  [org.hibernate.orm.core] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-17 09:37:22.197 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17 09:37:22.263 WARN  [o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-17 09:37:22.783 INFO  [o.s.boot.tomcat.TomcatWebServer] - Tomcat started on port 9901 (http) with context path '/'
+2026-06-17 09:37:22.797 INFO  [c.a.agritrade.AgritradeApplication] - Started AgritradeApplication in 5.633 seconds (process running for 6.403)
+2026-06-17 09:37:22.799 INFO  [c.a.agritrade.AgritradeApplication] - Agritrade Application Started Successfully
+2026-06-17 09:37:22.799 INFO  [c.a.agritrade.AgritradeApplication] - Log File Location : AppLogs/2026_June/2026-06-17.log
